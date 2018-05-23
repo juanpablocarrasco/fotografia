@@ -1,0 +1,147 @@
+body{
+  font-family: "Dancing Script";
+  background-color: black;
+}
+
+header {
+  border: 10px;
+  border-radius: 10px;
+  background-color: #5b7989;
+  display: flex;
+  flex-direction: row;
+  }
+
+a{
+color: white;
+}
+
+header h1{
+  text-align:left;
+  color:white;
+  text-shadow: 0 0 2px #02010a;
+  }
+
+
+  #menu-principal ul li {
+  	list-style-type: none;
+    display: inline;
+  }
+
+  #menu-principal ul li:link {
+    color:white;
+  }
+
+  #menu-principal, #titulo{
+    margin:auto;
+    color:white;
+  }
+#contenido1{
+  background-color:  #82c3a6;
+  text-align:center;
+}
+#contenido2{
+  display:flex;
+  flex-direction: row;
+  background-color: #d5c75f;
+  border:1px;
+  text-align:center;
+}
+
+.imagen1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imagen2{
+  margin:auto;
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-right:20px;
+  box-shadow: 3px 5px 10px #82c3a6;
+  border: 2px;
+}
+
+.imagen2:hover{
+  transform:rotate(10deg);
+
+}
+
+.imagen3{
+  margin:auto;
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-left:20px;
+  box-shadow: 3px 5px 10px #82c3a6;
+  border: 2px;
+}
+.imagen3:hover{
+  transform:translate(20px,-5px);
+}
+
+.imagen4{
+filter: blur(10px);
+}
+
+.imagen8, .imagen5, .imagen7{
+filter:grayscale(100%);
+}
+
+.imagen6{
+  filter: sepia(90%);
+}
+
+.imagen10{
+filter: blur(10px);
+}
+
+.imagen11, .imagen13, .imagen15{
+filter:grayscale(100%);
+}
+
+.imagen12{
+  filter: sepia(90%);
+}
+
+#contenido3{
+  margin-top: 20px;
+  text-align:center;
+  background-color: #d5c75f;
+}
+#contenido4{
+  margin-bottom: 20px;
+  text-align:center;
+  background-color: #d5c75f;
+}
+
+#contenido5{
+  margin-top: 20px;
+  text-align:center;
+  background-color: #d5c75f;
+}
+#contenido6{
+ margin-bottom: 20px;
+ text-align:center;
+  background-color: #d5c75f;
+}
+
+@media(max-width: 900px){
+   flex-direction: column;
+   width:100%;
+}
+
+footer{
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+}
+
+footer{
+display:flex;
+border-radius: 0 0 10px 10px
+padding-left:10px;
+}
+
+footer div{
+flex-basis: 0;
+flex-grow: 1;
+padding: 20px;
+}
